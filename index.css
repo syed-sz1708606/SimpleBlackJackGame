@@ -1,0 +1,59 @@
+body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-image: url(/pokerbg.jpg);
+background-size: cover;
+color: white;
+text-align: center; 
+font-size: larger;
+}
+
+h1{
+    color: goldenrod;
+}
+
+#message-el{
+font-style: italic;
+}
+
+#startBtn{
+    border: none;
+    color: #016f32;
+    width: 200px;
+    background-color: goldenrod;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 2px;
+    margin: 10px auto;
+}
+
+#startBtn:hover{
+    border: 5px solid rgb(62, 213, 240) ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    
+}
+
+#new-card{
+    display: block;
+    border: none;
+    color: #016f32;
+    width: 200px;
+    background-color: goldenrod;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 2px;
+    margin: 10px auto;
+}
+
+#new-card:hover{
+    border: 5px solid rgb(62, 213, 240) ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    
+}
